@@ -1,0 +1,26 @@
+{
+  "name": "packege-example",
+  "version": "0.1.0",
+  "description": "creación de un paquete npm",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VargasCristian/npmPackage.git"
+  },
+  "author": "Cristian Vargas <cristianv975@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VargasCristian/npmPackage/issues"
+  },
+  "homepage": "https://github.com/VargasCristian/npmPackage#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.3.3",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
